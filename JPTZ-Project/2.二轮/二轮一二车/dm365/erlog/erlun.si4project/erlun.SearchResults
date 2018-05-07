@@ -1,0 +1,5 @@
+---- gl_picture_osd Matches (4 in 3 files) ----
+captureThrFxn in capture.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365\encodertsp) : 			if(gl_picture_osd > 0)
+captureThrFxn in capture.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365\encodertsp) : 				gl_picture_osd --;
+process_uartcmd in ctrl.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365) : 				gl_picture_osd = 50;
+ctrl.h (F:\DM368Data\2.Share4or3\erlun20170922\dm365) line 120 : int  gl_picture_osd;

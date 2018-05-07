@@ -1,0 +1,10 @@
+---- gl_capture_fd Matches (9 in 2 files) ----
+ctrl.h (F:\DM368Data\2.Share4or3\object_capture\dm365) line 124 : int  gl_capture_fd;
+DealMenuHead in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 			if(gl_capture_fd)
+DealMenuHead in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 			ioctl(gl_capture_fd, VPFE_CMD_Capture_led_play);
+DealMenuHead in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 				if(gl_capture_fd)
+DealMenuHead in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 					ioctl(gl_capture_fd, VPFE_CMD_Capture_led_stop);
+DealMenuFour_LD in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 			ioctl(gl_capture_fd, VPFE_CMD_OLED_BRIGHT_DOWN,liangdu);
+DealMenuFour_LD in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 			ioctl(gl_capture_fd, VPFE_CMD_OLED_BRIGHT_DOWN,liangdu);
+DealMenuFour_DBD in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 		ioctl(gl_capture_fd, VPFE_CMD_OLED_CONTRAST,DUIBIDUCOUNT);
+DealMenuFour_DBD in mymenugui.c (F:\DM368Data\2.Share4or3\object_capture\dm365\encodets) : 		ioctl(gl_capture_fd, VPFE_CMD_OLED_CONTRAST,DUIBIDUCOUNT);

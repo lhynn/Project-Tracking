@@ -1,0 +1,5 @@
+---- gl_sdcard_full Matches (4 in 3 files) ----
+captureThrFxn in capture.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365\encodertsp) : 			if(gl_sdcard_full)   //display sd card full icon
+ctrlThrFxn in ctrl.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365) : 	gl_sdcard_full = 0;
+ctrlThrFxn in ctrl.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365) : 				gl_sdcard_full = 1;
+ctrl.h (F:\DM368Data\2.Share4or3\erlun20170922\dm365) line 133 : int  gl_sdcard_full;

@@ -1,0 +1,276 @@
+---- gl_sdcard_exist Matches (13 in 5 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):extern unsigned char gl_sdcard_exist;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(1 == gl_sdcard_exist && gps_file_fd == 0)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	/*if(1 == gl_sdcard_exist)
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_sdcard_exist;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):unsigned char gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		gl_sdcard_exist = 1;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if(0 == gl_sdcard_exist)
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_sdcard_exist = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			if(1 == gl_sdcard_exist)
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+---- gl_frame_count Matches (8 in 3 files) ----
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_frame_count;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned int        gl_frame_count;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned int  gl_frame_count;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):unsigned int   gl_frame_count;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	gl_frame_count = MP4_FILE_LENGTH_OVERFLOW;   //set 16000 > 15000,to create mp4 file //10min x 60 sec x 25frame = 15000
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			    if( (gl_frame_count >= MP4_FILE_LENGTH) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):					gl_frame_count = 0;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):					gl_frame_count ++;
+---- gl_sdcard_exist Matches (13 in 5 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):extern unsigned char gl_sdcard_exist;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(1 == gl_sdcard_exist && gps_file_fd == 0)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	/*if(1 == gl_sdcard_exist)
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_sdcard_exist;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets)://unsigned char gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		gl_sdcard_exist = 1;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if(0 == gl_sdcard_exist)
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_sdcard_exist = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			if(1 == gl_sdcard_exist)
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+---- gl_sdcard_exist Matches (13 in 5 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):extern unsigned char gl_sdcard_exist;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(1 == gl_sdcard_exist && gps_file_fd == 0)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	/*if(1 == gl_sdcard_exist)
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_sdcard_exist;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets)://unsigned char gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		gl_sdcard_exist = 1;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if(0 == gl_sdcard_exist)
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_sdcard_exist = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			if(1 == gl_sdcard_exist)
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+---- gl_sdcard_exist Matches (13 in 5 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):extern unsigned char gl_sdcard_exist;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(1 == gl_sdcard_exist && gps_file_fd == 0)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	/*if(1 == gl_sdcard_exist)
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_sdcard_exist;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		gl_sdcard_exist = 1;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if(0 == gl_sdcard_exist)
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_sdcard_exist = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			if(1 == gl_sdcard_exist)
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char gl_sdcard_exist;
+---- gl_frame_count Matches (8 in 3 files) ----
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_frame_count;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned int        gl_frame_count;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned int  gl_frame_count;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets)://unsigned int   gl_frame_count;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	gl_frame_count = MP4_FILE_LENGTH_OVERFLOW;   //set 16000 > 15000,to create mp4 file //10min x 60 sec x 25frame = 15000
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			    if( (gl_frame_count >= MP4_FILE_LENGTH) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):					gl_frame_count = 0;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):					gl_frame_count ++;
+---- idr_trigger Matches (10 in 3 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):extern unsigned char idr_trigger;
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  idr_trigger;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):unsigned char idr_trigger = 0;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		idr_trigger = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		idr_trigger = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):							idr_trigger = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):							idr_trigger = 0;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			idr_trigger = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):if(idr_trigger)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		idr_trigger=0;
+---- idr_frame_promote Matches (8 in 3 files) ----
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  idr_frame_promote;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char  idr_frame_promote;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		//if(0 < idr_frame_promote)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		if(idr_frame_promote > 0)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			idr_frame_promote --;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets)://unsigned char  idr_frame_promote = 0;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):					idr_frame_promote = 10;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):				if(idr_frame_promote < 10)
+---- gl_sdcard_exist Matches (10 in 4 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):extern unsigned int gl_sdcard_exist;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(1 == gl_sdcard_exist && gps_file_fd == 0)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	/*if(1 == gl_sdcard_exist)
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_sdcard_exist;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		gl_sdcard_exist = 1;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if(0 == gl_sdcard_exist)
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		  	gl_sdcard_exist = 0;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_sdcard_exist = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			if(1 == gl_sdcard_exist)
+---- gl_system_status Matches (10 in 3 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):						if(gl_system_status == STATUS_STOP)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):						}else if(gl_system_status == STATUS_REC)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	gl_system_status = STATUS_STOP; //STATUS_REC;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(gl_system_status == SYSTEM_STATUS)	//play
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				gl_system_status = STATUS_STOP;
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_system_status;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        if( (gl_system_status == STATUS_REC) && (video_command == CMD_STOP) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_system_status = STATUS_STOP;		
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		else if( (gl_system_status == STATUS_STOP) && (video_command == CMD_REC) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_system_status = STATUS_REC;	
+---- rec stop Matches (1 in 1 files) ----
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			printf("rec stop \n");
+---- gl_system_status Matches (10 in 3 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):						if(gl_system_status == STATUS_STOP)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):						}else if(gl_system_status == STATUS_REC)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	gl_system_status = STATUS_STOP; //STATUS_REC;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(gl_system_status == CMD_REC)	//play
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				gl_system_status = STATUS_STOP;
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_system_status;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        if( (gl_system_status == STATUS_STOP) && (video_command == CMD_REC) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_system_status = STATUS_STOP;		
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		else if( (gl_system_status == STATUS_REC) && (video_command == CMD_STOP) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_system_status = STATUS_REC;	
+---- udp socket ok Matches (3 in 1 files) ----
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	printf("[1]udp socket ok\r\n");
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	printf("[1]udp socket ok\r\n");
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	printf("[1]3g udp socket ok\r\n");
+---- udp_init Matches (2 in 1 files) ----
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):void udp_init(void)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	pthread_create(&thread, NULL, udp_init, 0);
+---- SYSTEM_STATUS Matches (14 in 3 files) ----
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char SYSTEM_STATUS; //0-stop 1-play
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	if(SYSTEM_STATUS == 1)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):unsigned char SYSTEM_STATUS = 0; //0-stop 1-play
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if (SYSTEM_STATUS == 0)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		    SYSTEM_STATUS = 1;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if (SYSTEM_STATUS == 1)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		    SYSTEM_STATUS = 0;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):extern unsigned char SYSTEM_STATUS; //0-stop 1-play
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	if (SYSTEM_STATUS == 0)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		SYSTEM_STATUS = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):						if (SYSTEM_STATUS == 0)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):							SYSTEM_STATUS = 1;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):						if (SYSTEM_STATUS == 1)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):							SYSTEM_STATUS = 0;
+---- video_command Matches (9 in 3 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):								video_command = CMD_REC;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):							video_command = CMD_STOP;							
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	video_command	 = CMD_NONE;	//CMD_PLAY;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				video_command    = CMD_STOP;	
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  video_command;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        if( (gl_system_status == STATUS_REC) && (video_command == CMD_STOP) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			video_command = CMD_NONE;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		else if( (gl_system_status == STATUS_STOP) && (video_command == CMD_REC) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			video_command = CMD_NONE;
+---- gl_system_status Matches (11 in 4 files) ----
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	if(gl_system_status == )
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):						if(gl_system_status == STATUS_STOP)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):						}else if(gl_system_status == STATUS_REC)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):	gl_system_status = STATUS_STOP; //STATUS_REC;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):		if(gl_system_status == STATUS_REC)	//play
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				gl_system_status = STATUS_STOP;
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int  gl_system_status;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        if( (gl_system_status == STATUS_REC) && (video_command == CMD_STOP) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_system_status = STATUS_STOP;		
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):		else if( (gl_system_status == STATUS_STOP) && (video_command == CMD_REC) )
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):			gl_system_status = STATUS_REC;	
+---- hPauseProcess Matches (29 in 11 files) ----
+Audio.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle            hPauseProcess;
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Capture.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):static Int keyAction(UI_Key key, UI_Handle hUI, Pause_Handle hPauseProcess)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):            Pause_off(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):            Pause_on(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):    Pause_off(envp->hPauseProcess);
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):    Pause_Handle            hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle        hPauseProcess       = NULL;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    hPauseProcess = Pause_create(&pAttrs);
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess == NULL) {
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        captureEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        videoEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        writerEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    ctrlEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess) Pause_off(hPauseProcess);
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess) {
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_delete(hPauseProcess);
+Speech.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle            hPauseProcess;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_test(envp->hPauseProcess);
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Video.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Writer.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+---- process_uartcmd Matches (2 in 1 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int process_uartcmd()
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):   		process_uartcmd(Pause_Handle hPauseProcess);
+---- hPauseProcess Matches (33 in 11 files) ----
+Audio.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle            hPauseProcess;
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Capture.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int process_uartcmd(Pause_Handle hPauseProcess)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				hPauseProcess
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				hPauseProcess
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):static Int keyAction(UI_Key key, UI_Handle hUI, Pause_Handle hPauseProcess)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):            Pause_off(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):            Pause_on(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):   		process_uartcmd(envp->hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):    Pause_off(envp->hPauseProcess);
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):    Pause_Handle            hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle        hPauseProcess       = NULL;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    hPauseProcess = Pause_create(&pAttrs);
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess == NULL) {
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        captureEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        videoEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        writerEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    ctrlEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess) Pause_off(hPauseProcess);
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess) {
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_delete(hPauseProcess);
+Speech.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle            hPauseProcess;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_test(envp->hPauseProcess);
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Video.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Writer.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+---- hPauseProcess Matches (33 in 11 files) ----
+Audio.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle            hPauseProcess;
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Capture.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int process_uartcmd(Pause_Handle hPauseProcess)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				Pause_on(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):				Pause_off(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):static Int keyAction(UI_Key key, UI_Handle hUI, Pause_Handle hPauseProcess)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):            Pause_off(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):            Pause_on(hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):   		process_uartcmd(envp->hPauseProcess);
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):    Pause_off(envp->hPauseProcess);
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):    Pause_Handle            hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle        hPauseProcess       = NULL;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    hPauseProcess = Pause_create(&pAttrs);
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess == NULL) {
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        captureEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        videoEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        writerEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    ctrlEnv.hPauseProcess      = hPauseProcess;
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess) Pause_off(hPauseProcess);
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    if (hPauseProcess) {
+Main.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_delete(hPauseProcess);
+Speech.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle            hPauseProcess;
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_test(envp->hPauseProcess);
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Video.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+Writer.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_off(envp->hPauseProcess);
+Writer.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    Pause_Handle      hPauseProcess;
+---- Pause_test(envp->hPauseProcess); Matches (1 in 1 files) ----
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        Pause_test(envp->hPauseProcess);
+---- process_uartcmd Matches (2 in 1 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):int process_uartcmd(Pause_Handle hPauseProcess,)
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):   		process_uartcmd(envp->hPauseProcess,envp->hdisplay);
+---- UDP Matches (1 in 1 files) ----
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):#define SEND_H264_UDP_NET 0
+---- udp_3g_init Matches (3 in 2 files) ----
+Ctrl.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):void udp_3g_init(void)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):void udp_3g_init(void)
+Video.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	pthread_create(&thread3g, NULL, udp_3g_init, 0);
+---- RSZ_HEIGHT Matches (5 in 2 files) ----
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):#define RSZ_HEIGHT   576 //720//576 //556
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):	//	bufSize += RSZ_WIDTH*RSZ_HEIGHT*2;//720*576*2; 
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):    gfxAttrs.dim.height = RSZ_HEIGHT;
+Capture.c (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365\encodets):        dAttrs.height = RSZ_HEIGHT;//capDim.height;
+Ctrl.h (e:\share\dvsdk_dm365_4_02_00_06\dvsdk-demos_4_02_00_01\dm365):#define RSZ_HEIGHT           576 //SCREEN_HEIGHT

@@ -1,0 +1,14 @@
+package.xdc
+package.xs
+package/encodertsp_config.sch
+package/.vers_g160
+package/.vers_r170
+package/.vers_b150
+package/.vers_c150
+package/.xdc-u17
+package/encodertsp_config.java
+package/encodertsp_config.class
+package/package_encodertsp_config.c
+package/package.defs.h
+package/package.doc.xml
+package/encodertsp_config.ccs

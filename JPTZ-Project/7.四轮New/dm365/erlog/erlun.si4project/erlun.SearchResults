@@ -1,0 +1,3 @@
+---- BaoHu Matches (2 in 2 files) ----
+char_table.h (F:\DM368Data\2.Share4or3\erlun20170922\dm365) line 187 : const unsigned char BaoHu[]={
+osd_print_dianjibaohu in drawosd.c (F:\DM368Data\2.Share4or3\erlun20170922\dm365\encodertsp) : 	tab= BaoHu;
