@@ -903,8 +903,6 @@ void se_terminal::ButtonDownMenuDeal(void){
 void se_terminal::ButtonLeftMenuDeal(void){
     int index;
     if(DecodeFlag){
-        printf("pkill -9 decode \n\n\n");
-        fflush(NULL);
         system("pkill -9 decode");
         MenFlag = 1;
         ShowFileName->hide();
