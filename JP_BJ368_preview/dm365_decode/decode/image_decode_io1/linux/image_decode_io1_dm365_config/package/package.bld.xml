@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="image_decode_io1_dm365_config" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/image_decode_io1_dm365_xv5T.c"/>
+    </sources>
+    <configurations>
+        <srcFile name="/home/qxd/dm365/dvsdk_dm365_4_02_00_06/dmai_2_20_00_15/packages/ti/sdo/dmai/apps/image_decode_io1/linux/image_decode_io1_dm365.cfg"/>
+    </configurations>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/image_decode_io1_dm365_xv5T.mak" src="package.bld"/>
+        <srcFile name="package/cfg/image_decode_io1_dm365_xv5T.ov5T.dep" src="package/cfg/image_decode_io1_dm365_xv5T.c"/>
+        <srcFile name="package/cfg/image_decode_io1_dm365_xv5T.dep" src="package/cfg/image_decode_io1_dm365_xv5T.cfg"/>
+        <srcFile name="package/rel/image_decode_io1_dm365_config.tar.dep" src="package/rel/image_decode_io1_dm365_config.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="gnu.targets.arm.GCArmv5T"
+            version="gnu.targets.arm.GCArmv5T{1,0,4.3,3"
+            platform="ti.platforms.evmDM365"
+            isa="v5T"
+            suffix="v5T"
+            rootDir="/opt/arm-2009q1-203//"
+            os="Linux"
+            rts="gnu.targets.arm.rtsv5T">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <executables>
+    <executable name="image_decode_io1_dm365"
+        pname="image_decode_io1_dm365.xv5T"
+        target="gnu.targets.arm.GCArmv5T"
+        platform="ti.platforms.evmDM365"
+        profile="release"
+        xCfgScript="package/cfg/image_decode_io1_dm365_xv5T.cfg"
+        xCfgPrefix="package/cfg/image_decode_io1_dm365_xv5T"
+        cfgScript="/home/qxd/dm365/dvsdk_dm365_4_02_00_06/dmai_2_20_00_15/packages/ti/sdo/dmai/apps/image_decode_io1/linux/image_decode_io1_dm365.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="image_decode_io1_dm365.xv5T"
+        args=""
+        groupName="image_decode_io1_dm365.xv5T"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="image_decode_io1_dm365_config"
+        pname="image_decode_io1_dm365_config.tar"
+        label="default"
+    >
+        <file name="package/build.cfg"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.rel.dot"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

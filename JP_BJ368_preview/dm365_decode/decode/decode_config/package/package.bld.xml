@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="decode_config" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/decode_xv5T.c"/>
+    </sources>
+    <configurations>
+        <srcFile name="/dm365/dvsdk_dm365_4_02_00_06/dvsdk-demos_4_02_00_01/dm365_decode/decode/decode.cfg"/>
+    </configurations>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/decode_xv5T.mak" src="package.bld"/>
+        <srcFile name="package/cfg/decode_xv5T.ov5T.dep" src="package/cfg/decode_xv5T.c"/>
+        <srcFile name="package/cfg/decode_xv5T.dep" src="package/cfg/decode_xv5T.cfg"/>
+        <srcFile name="package/rel/decode_config.tar.dep" src="package/rel/decode_config.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="gnu.targets.arm.GCArmv5T"
+            version="gnu.targets.arm.GCArmv5T{1,0,4.3,2"
+            platform="ti.platforms.evm3530"
+            isa="v5T"
+            suffix="v5T"
+            rootDir="/opt/4.3.2/"
+            os="Linux"
+            rts="gnu.targets.arm.rtsv5T">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <executables>
+    <executable name="decode"
+        pname="decode.xv5T"
+        target="gnu.targets.arm.GCArmv5T"
+        platform="ti.platforms.evmDM365"
+        profile="release"
+        xCfgScript="package/cfg/decode_xv5T.cfg"
+        xCfgPrefix="package/cfg/decode_xv5T"
+        cfgScript="/dm365/dvsdk_dm365_4_02_00_06/dvsdk-demos_4_02_00_01/dm365_decode/decode/decode.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="decode.xv5T"
+        args=""
+        groupName="decode.xv5T"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="decode_config"
+        pname="decode_config.tar"
+        label="default"
+    >
+        <file name="package/build.cfg"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.rel.dot"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>
